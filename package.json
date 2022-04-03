@@ -1,0 +1,16 @@
+{
+    "name": "front-end-scss",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "scss": "node-sass --watch LaslesVPN/scss/index.scss LaslesVPN/css/index.css --output-style nested"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^7.0.1",
+        "slick-carousel": "^1.8.1"
+    }
+}
